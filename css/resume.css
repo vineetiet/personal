@@ -97,6 +97,7 @@ header .trans-from-left {
 .side-menu > ul {
 
 	list-style: none;
+	height: 100%;
 	padding: 0;
 	font-size: 16px;
 	font-weight: 800;
@@ -107,16 +108,18 @@ header .trans-from-left {
 .side-menu > ul > li {
 
 	list-style: none;
-    border-bottom: 1px solid #ededed;
+  
     color: white;
     height: 45px;
     display: block;
     transition: transform 0.3s;
+    border-bottom: 1px solid #ededed;
 }
 
 .side-menu > ul > li:hover{
 	transform: scale(1.5);
 	cursor: pointer;
+
 
 }
 
